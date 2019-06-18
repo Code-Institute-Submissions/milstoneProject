@@ -29,6 +29,9 @@ body {
 
 }
 
+.nav-link {
+    white-space: nowrap;
+}
 
 
 /*----------Background---------------*/
@@ -51,13 +54,7 @@ body {
 
 /*----Button-----*/
 
-@media (max-width: 768px) {
-    .btn--primary {
-  color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
-}
-    }
+
     
  
 
@@ -80,7 +77,7 @@ body {
 
 .isg {
 
-    height: 50vh;
+    height: 75vh;
 
     background: url(../media/calloutbg.jpg) no-repeat bottom right fixed;
     -webkit-background-size: cover;
@@ -153,10 +150,7 @@ body {
     color: #6f6f6f;
 }
 
-a:hover, a:visited, a:link, a:active
-{
-    text-decoration: none;
-}
+
 .btn a {
     color: white;
 }
@@ -193,21 +187,28 @@ font-family: 'Roboto', sans-serif;
 
 
 .FAQ {
-    background-color: #e3e7ed;
+    background-color: #f5f5f5;
     font-size: 14px;
 }
 .FAQ h4 {
     font-size: 24px;
 }
 
-
-
-
-
-}
 .feedback1 h1 {
     margin: 20px;
     font-size: 22px;
+}
+
+/*-----Media-----*/
+
+@media (max-width: 1024px) {
+    .btn--primary {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+   }
 
 
 
