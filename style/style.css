@@ -1,0 +1,211 @@
+body {
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+
+
+/*------------------------Nav&Logo---------------*/
+
+
+.logo {
+    width: 40%;
+    height: 40%;
+    margin: 0 0 0 -14px;
+    padding: 0;
+   
+}
+
+
+
+.fixed-top {
+
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, .85);
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+
+}
+
+
+
+/*----------Background---------------*/
+
+.callout-container {
+
+
+    height: 70vh;
+    background: url(../media/calloutbg.jpg) no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+/*----Button-----*/
+
+@media (max-width: 768px) {
+    .btn--primary {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+    }
+    
+ 
+
+
+
+.ibg {
+    height: 90vh;
+    background: url(../media/bg2.jpg) no-repeat bottom  fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+
+.isg {
+
+    height: 50vh;
+
+    background: url(../media/calloutbg.jpg) no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+/*----Partner----*/
+
+.content-wrapper--partner {
+    background-color: #676767;
+    color: white;
+    margin-bottom: 1px;
+
+}
+
+.content-container {
+    padding-top: 8px;
+    padding-bottom: 5px;
+
+}
+
+
+
+
+.feature {
+    text-align: center;
+    margin-bottom: 3px;
+}
+.feature-mid{
+    padding-top: 133px;
+}
+.m--d {
+    padding-top: 16px;
+}
+
+.feature h2 {
+    padding-top: 5px;
+}
+
+/*------------------Köp Bil-----------*/
+
+
+.kpb {
+   
+    margin: 10px 16.67% 0 16.67%;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}
+
+ 
+
+
+.mt--5 {
+    margin-top: 200px;
+   color: white;
+   font-size: xx-large;
+   font-weight:bold;
+    
+}
+.tc-tc {
+    color: #6f6f6f;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+.btn a {
+    color: white;
+}
+
+/*margin position special*/
+.mp-s1 {
+margin-top: 55px;
+}
+
+.mp-s2 {
+    margin-bottom: 55px;
+}
+.mp-s3 {
+    margin: 300px 10px 0 10px;
+}
+.mp-s4 {
+    margin: 300px 10px 30px 10px;
+}
+
+.feedback1 {
+font-family: 'Roboto', sans-serif;
+    width: 400px;
+    height: 200px;
+    background-color: rgba(250,250,250,0.7);
+    border-radius: 25px;
+    text-align: center;}
+
+.c-enter {
+    text-align: center;
+    
+}
+
+
+.FAQ {
+    background-color: #e3e7ed;
+    font-size: 14px;
+}
+.FAQ h4 {
+    font-size: 24px;
+}
+
+
+
+
+
+}
+.feedback1 h1 {
+    margin: 20px;
+    font-size: 22px;
+
+
+

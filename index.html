@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>RCD BIL </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1-0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css" type="text/css" />
+
+
+</head>
+
+<body>
+
+
+    <!--Navbar-->
+    <nav class="fixed-top navbar navbar-light navbar-expand-xlg nav-tabs">
+        <a href="index.html"><img class="logo nav-link" src="./media/Logo1.png"></a>
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span></button>
+     <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+            <ul class="navbar-nav ml-auto">
+                <li class="active nav-item ml-2">
+                    <a class="nav-link" href="index.html">HEM
+                </a>
+                </li>
+                <li class="active nav-item ml-2">
+                    <a class="nav-link" href="#kop-bil">KÖP BIL
+                </a>
+                </li>
+
+                <li class="active nav-item ml-2">
+                    <a class="nav-link" href="#salj-bil">SÄLJ BIL
+                </a>
+                </li>
+
+
+
+
+                <li class="active nav-item ml-2">
+                    <a class="nav-link" href="/">FAQ
+                </a>
+                </li>
+
+
+                <li class="active nav-item ml-2">
+                    <a class="nav-link" href="/">KONTAKT
+                </a>
+                </li>
+
+                <li class="active nav-item ml-2">
+                    <a class="nav-link" href="/">OM OSS
+                </a>
+                </li>
+
+
+            </ul>
+        </div>
+
+    </nav>
+    <!--/.navbar-->
+
+    <!--Content-->
+
+
+
+    <div class="container-fluid callout-container mp-s1">
+        <a href="/" target="_blank">
+            <div class="btn btn-lg  btn-outline-primary mp-s3 btn--primary">KÖP BIL</div>
+        </a><button class="btn  btn-outline-primary btn-lg mp-s3 btn--primary" data-toggle="modal" data-target="#saljbil">SÄLJ BIL</button>
+        <!-- Callout-Contact -->
+
+
+
+        <!-- /.callout-contact -->
+    </div>
+
+    <!-- Reco-Callout -->
+
+
+    <div class="row m-2">
+        <iframe src="https://widget.reco.se/v2/widget/4026278?mode=HORIZONTAL_QUOTE" width="100%" height="250" scrolling="no" style="border:0;display:block;" data-reactroot=""></iframe>
+
+
+    </div>
+
+    <!-- /.Reco-Callout -->
+
+
+    <!-- Features--Partner -->
+    <div class="content-wrapper--partner">
+        <div class="container content-container">
+            <section class="feature">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>SAMARBETSPARTNERS</h2>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="feature">
+                            <img src="media/carfax.png">
+                            <p>Våra bilar går självklart igenom en kvalitetskontroll innan försäljning och du som kund har tillgång till en kostnadsfri Carfax rapport så att ni känner er så trygga som möjligt.</p>
+
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="feature feature-mid">
+                            <img src="media/dnb.png">
+                            <p class="m--d">Vi erbjuder förmånlig finansiering i form av avbetalning på samtliga bilar vår hall i via DNB finans.</p>
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4">
+                        <div class="feature feature-mid">
+                            <img src="media/solid.png">
+                            <p class="m--d">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <!-- /.features-Partner -->
+
+    <!--Contact Modal-->
+    <div class="modal" tabindex="-1" role="dialog" id="saljbil">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Vi köper gärna din bil!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          
+        </button>
+                </div>
+                <div class="modal-body">
+                    <form action="sbcontact.php" method="post">
+                        <div class="form-group">
+                            <label for="namn">Namn: </label>
+                            <input type="text" class="form-control" placeholder="Ditt Namn" name="name">
+
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">E-postadress: </label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Din E-postadress" name="email">
+
+                        </div>
+
+                        <div class="form-group">
+                            <label for="text">Beskriv ditt fordon</label>
+                            <textarea class="form-control" id="sb-text" rows="5" placeholder="telefonnummer, registreringsnummer, miltal, etc." name="message"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-success">Skicka</button>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">Stäng</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/contact modal-->
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
