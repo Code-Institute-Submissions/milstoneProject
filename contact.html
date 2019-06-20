@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>RCD BIL </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1-0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css" type="text/css" />
+   <script src="https://kit.fontawesome.com/206d7c5638.js"></script>
+
+
+</head>
+
+<body>
+
+
+
+    <!--Navbar-->
+    <nav class="fixed-top navbar navbar-light navbar-expand-lg nav-tabs">
+        <a href="index.html"><img class="logo nav-link" src="./media/Logo1.png"></a>
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+            <ul class="navbar-nav ml-auto">
+                <li class="active nav-item ml-2">
+                    <a class="nav-link" href="index.html">HEM
+                </a>
+                </li>
+                <li class="active nav-item ml-2">
+                    <a class="nav-link" href="#kop-bil">KÖP BIL
+                </a>
+                </li>
+
+                <li class="active nav-item ml-2">
+                    <a class="nav-link" href="#salj-bil">SÄLJ BIL
+                </a>
+                </li>
+
+
+
+
+                <li class="active nav-item ml-2">
+                    <a class="nav-link" href="/">FAQ
+                </a>
+                </li>
+
+
+                <li class="active nav-item ml-2">
+                    <a class="nav-link" href="/">KONTAKT
+                </a>
+                </li>
+
+                <li class="active nav-item ml-2">
+                    <a class="nav-link" href="/">OM OSS
+                </a>
+                </li>
+
+
+            </ul>
+        </div>
+
+    </nav>
+    <!--/.navbar-->
+
+    <div class="container-fluid isg mp-s1"> </div>
+
+
+    <!---Test----------------------->
+    <div class="container-fluid ms-p5">
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-sm-12 col-md-12 col-lg-6 col-xlg-6">
+                    <h2>Öppettider: </h2>
+                    <h5>Måndag - Fredag: 10:00 - 18:00</h5>
+                    <h5>Lördag - Söndag : 11:00 - 15:00</h5>
+                    <h4 class="mt-5">Västbergavägen 24</h4>
+                    <h4>126 30 Hägersten.</h4>
+                    <h5>Ring gärna innan ni besöker oss då vi kan vara ute på uppdrag, tack på förhand.</h5>
+                    <h3 class="mt-5">Försäljning: 073 500 28 28</h3>
+                    <h3>Växel:08 411 55 55 </h3>
+                    <h3>info@rcdbil.se</h3><button class="mb-5 btn btn-primary" data-toggle="modal" data-target="#kontakt">Skriv till oss</button>
+              <div>   
+            <h5>Vi finns även på</h5>
+            <ul class="list-inline social-links">
+                <li class="list-inline-item">
+                    <a target="_blank" href="https://www.facebook.com/pages/category/Product-Service/Rcdbilab-363465850794032/">
+                        <i class="fab fa-facebook fa-5x" aria-hidden="true"></i>
+                        
+                    </a>
+                </li>
+
+
+                <li class="list-inline-item">
+                    <a target="_blank" href="https://www.instagram.com/rcdbilab/">
+                       <i class="fab fa-instagram fa-5x"></i>
+                       
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+                </div>
+                
+
+                <div class="col-sm-12 col-md-12 col-lg-6 col-xlg-6 map-responsive"><iframe width="495" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=V%C3%A4stbergav%C3%A4gen%2024%2C%20h%C3%A4gersten&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div>
+            </div>
+        </div>
+       
+
+
+
+
+        <!--Contact Modal-->
+        <div class="modal" tabindex="-1" role="dialog" id="kontakt">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          
+        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="contact.php" method="post">
+                            <div class="form-group">
+                                <label for="namn">Namn: </label>
+                                <input type="text" class="form-control" placeholder="Ditt Namn" name="name">
+
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">E-postadress: </label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Din E-postadress" name="email">
+
+                            </div>
+
+                            <div class="form-group">
+                                <label for="text">Meddelande</label>
+                                <textarea class="form-control" id="sb-text" rows="5" placeholder="Ditt meddelande" name="message"></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-success">Skicka</button>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">Stäng</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/contact modal-->
+
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
