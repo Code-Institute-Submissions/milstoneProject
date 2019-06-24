@@ -21,7 +21,7 @@ body {
 .fixed-top {
 
     overflow: hidden;
-    background-color: rgba(255, 255, 255, .85);
+    background-color: rgba(103, 103, 103, .95);
     position: fixed;
     top: 0;
     width: 100%;
@@ -140,34 +140,8 @@ body {
 /*------------------Köp Bil-----------*/
 
 
-.kpb {
-   
-    margin: 10px 16.67% 0 16.67%;
-    text-align: center;
-    color: white;
-    font-weight: bolder;
-}
-
- 
-
-
-.mt--5 {
-    margin-top: 200px;
-   color: white;
-   font-size: xx-large;
-   font-weight:bold;
-    
-}
-.tc-tc {
-    color: #6f6f6f;
-}
-
-
-.btn a {
-    color: white;
-}
-
 /*margin position special*/
+
 .mp-s1 {
 margin-top: 55px;
 }
