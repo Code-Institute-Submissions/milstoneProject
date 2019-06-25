@@ -12,9 +12,12 @@
     <link rel="stylesheet" href="style/style.css" type="text/css" />
 
 
+
+
 </head>
 
 <body>
+
 
 
     <!--Navbar-->
@@ -71,14 +74,18 @@
 
     <div class="container-fluid callout-container mp-s1">
         <a href="kop-bil.html">
-            <div class="btn btn-lg  btn-outline-primary mp-s3 btn--primary">KÖP BIL</div>
-        </a><button class="btn  btn-outline-primary btn-lg mp-s3 btn--primary" data-toggle="modal" data-target="#saljbil">SÄLJ BIL</button>
+            <div class="btn btn-lg  btn-outline-secondary mp-s3 btn--primary">KÖP BIL</div>
+        </a><button class="btn  btn-outline-secondary btn-lg mp-s3 btn--primary" data-toggle="modal" data-target="#saljbil">SÄLJ BIL</button>
         <!-- Callout-Contact -->
 
 
 
         <!-- /.callout-contact -->
     </div>
+
+
+
+
 
     <!-- Reco-Callout -->
 
@@ -95,41 +102,68 @@
     <!-- Features--Partner -->
     <div class="content-wrapper--partner">
         <div class="container content-container">
-            <section class="feature">
-                <div class="row">
-                    <div class="col-12">
-                        <h2>SAMARBETSPARTNERS</h2>
+
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="c-enter mt-2">SAMARBETSPARTNERS</h2>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="feature">
+                        <img class="s60" src="media/carfax.png" alt="Logo-Carfax">
+                        <p>Våra bilar går självklart igenom en kvalitetskontroll innan försäljning och du som kund har tillgång till en kostnadsfri Carfax rapport så att ni känner er så trygga som möjligt.</p>
+                    </div>
+
+
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="feature pt-5">
+                        <img class="s60 c-enter" src="media/dnb.png" alt="Logo-DNB">
+                        <p class="pt-3 c-enter">Vi erbjuder förmånlig finansiering i form av avbetalning på samtliga bilar vår hall i via DNB finans.</p>
 
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="feature">
-                            <img src="media/carfax.png" alt="Logo-Carfax">
-                            <p>Våra bilar går självklart igenom en kvalitetskontroll innan försäljning och du som kund har tillgång till en kostnadsfri Carfax rapport så att ni känner er så trygga som möjligt.</p>
+                <div class="col-12 col-md-12 col-lg-4">
+                    <div class="feature pt-5">
+                        <img class="s60 c-enter" src="media/solid.png" alt="Logo-Solid">
+                        <p class="pt-3 c-enter">Vi samarbetar med Solid bilgaranti. För att du som kund ska känna en extra trygghet kan du teckna upp till 3 års garanti som gäller både äldre fordon samt för fordon som rullat längre än vad bilförsäkringens maskinskada ersätter.</p>
 
-
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4">
-                        <div class="feature feature-mid">
-                            <img src="media/dnb.png" alt="Logo-DNB">
-                            <p class="m--d">Vi erbjuder förmånlig finansiering i form av avbetalning på samtliga bilar vår hall i via DNB finans.</p>
-
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-12 col-lg-4">
-                        <div class="feature feature-mid">
-                            <img src="media/solid.png" alt="Logo-Solid">
-                            <p class="m--d">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
-                        </div>
                     </div>
                 </div>
-            </section>
+            </div>
+
         </div>
     </div>
     <!-- /.features-Partner -->
+
+    <!--motto--->
+    <div class="container-fluid mt-4 mb-2">
+        <div class="row">
+            <div class="col-6 col-md-3 col-lg-3">
+                <h2 class="c-enter font-weight-normal">Ärlighet</h2>
+                <hr class="block-divider">
+                <p class="c-enter font-weight-lighter">Genom att alltid vara ärliga mot våra kunder skapar vi tillit och förtroende. </p>
+            </div>
+            <div class="col-6 col-md-3 col-lg-3">
+                <h2 class="c-enter font-weight-normal">Kunskap</h2>
+                <hr class="block-divider">
+                <p class="c-enter font-weight-lighter">Med kunskap ser vi till att skräddarsy en affär efter era behov.</p>
+            </div>
+            <div class="col-6 col-md-3 col-lg-3">
+                <h2 class="c-enter font-weight-normal">Ansvar</h2>
+                <hr class="block-divider">
+                <p class="c-enter font-weight-lighter">Vi tar ansvar innan, under samt efter en bilaffär.Det ska vara enkelt att köpa bil och vi håller det så enkelt som möjligt. </p>
+            </div>
+            <div class="col-6 col-md-3 col-lg-3">
+                <h2 class="c-enter font-weight-normal">Trygghet</h2>
+                <hr class="block-divider">
+                <p class="c-enter font-weight-lighter">Trygghet är A och O för oss. Vi håller vårat ord och ni som kunder åker härifrån obekymrade. </p>
+            </div>
+        </div>
+    </div>
+    <!--/motto--->
 
     <!--Contact Modal-->
     <div class="modal" tabindex="-1" role="dialog" id="saljbil">
@@ -145,18 +179,18 @@
                     <form action="sbcontact.php" method="post">
                         <div class="form-group">
                             <label for="namn">Namn: </label>
-                            <input type="text" class="form-control" placeholder="Ditt Namn" name="name">
+                            <input type="text" class="form-control" placeholder="Ditt namn:" name="name">
 
                         </div>
                         <div class="form-group">
                             <label for="exampleInputEmail1">E-postadress: </label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Din E-postadress" name="email">
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Din e-postadress:" name="email">
 
                         </div>
 
                         <div class="form-group">
                             <label for="text">Beskriv ditt fordon</label>
-                            <textarea class="form-control" id="sb-text" rows="5" placeholder="telefonnummer, registreringsnummer, miltal, etc." name="message"></textarea>
+                            <textarea class="form-control" id="sb-text" rows="5" placeholder="Telefonnummer, registreringsnummer, miltal, etc." name="message"></textarea>
                         </div>
 
                         <button type="submit" class="btn btn-success">Skicka</button>
@@ -189,7 +223,7 @@
             </div>
         </div>
     </div>
-<!------/About us modal----->
+    <!------/About us modal----->
 
 
 
@@ -199,5 +233,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </body>
+
+
 
 </html>

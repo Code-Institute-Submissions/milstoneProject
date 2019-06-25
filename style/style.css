@@ -129,9 +129,7 @@ body {
 .feature-mid{
     padding-top: 133px;
 }
-.m--d {
-    padding-top: 16px;
-}
+
 
 .feature h2 {
     padding-top: 5px;
@@ -205,16 +203,32 @@ font-family: 'Roboto', sans-serif;
     font-size: 22px;
 }
 
-/*-----Media-----*/
 
-@media (max-width: 1024px) {
-    .btn--primary {
+.s60 {
+    width: 60%;
+    height: 60%;
+}
+
+
+
+.block-divider {
+
+    width: 70%;
+    height: 5px;
+    border: 0px;
+    background-color: #444; }
+
+
+/*-----Media-----*/
+@media (max-width: 1024px){
+    .btn--primary{
   color: #fff;
   background-color: #007bff;
   border-color: #007bff;
-}
+} }
 
-   }
+
+
 
 
 
