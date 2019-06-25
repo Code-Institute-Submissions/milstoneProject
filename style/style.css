@@ -140,6 +140,8 @@ body {
 
 /*margin position special*/
 
+
+
 .mp-s1 {
 margin-top: 55px;
 }
@@ -148,7 +150,7 @@ margin-top: 55px;
     margin-bottom: 55px;
 }
 .mp-s3 {
-    margin: 300px 10px 0 10px;
+    margin: 380px 10px 0 10px;
 }
 .mp-s4 {
     margin: 300px 10px 30px 10px;
@@ -222,9 +224,12 @@ font-family: 'Roboto', sans-serif;
 /*-----Media-----*/
 @media (max-width: 1024px){
     .btn--primary{
-  color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+   color: #fff;
+  background-color: #5a6268;
+  border-color: #545b62;
+  margin-top: 460px;
+
+  
 } }
 
 .foo-ter{
