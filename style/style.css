@@ -39,61 +39,8 @@ body {
 .callout-container {
 
 
-    height: 70vh;
-    background: url(../media/calloutbg.jpg) no-repeat bottom right fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
-
-
-    
- 
-
-
-
-.ibg {
-    height: 90vh;
-    background: url(../media/bg2.jpg) no-repeat bottom  fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    
-}
-
-.isg {
-
-    height: 75vh;
-
-    background: url(../media/calloutbg.jpg) no-repeat bottom right fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
-
-.c-bg {
-
     height: 50vh;
-
-    background: url(../media/calloutbg.jpg) no-repeat bottom fixed;
+    background: url(../media/calloutbg.png) no-repeat 50% 60%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -102,8 +49,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
+    
 }
+
+
+    
 /*----Partner----*/
 
 .content-wrapper--partner {
@@ -220,17 +170,30 @@ font-family: 'Roboto', sans-serif;
     border: 0px;
     background-color: #444; }
 
-
-/*-----Media-----*/
-@media (max-width: 1024px){
-    .btn--primary{
+.btn--primary-r{
    color: #fff;
   background-color: #5a6268;
   border-color: #545b62;
-  margin-top: 460px;
-
+  z-index: 1;
+  position: absolute;
+    bottom: 45%;
+    right: 55%;
+    
+}
   
-} }
+.btn--primary-l{
+   color: #fff;
+  background-color: #5a6268;
+  border-color: #545b62;
+  z-index: 1;
+  position: absolute;
+    bottom: 45%;
+    left: 55%;
+    
+}
+
+
+
 
 .foo-ter{
     background-color: #676767;
