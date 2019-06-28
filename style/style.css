@@ -193,7 +193,10 @@ font-family: 'Roboto', sans-serif;
 }
 
 
-
+.bg-color {
+    background-color: #676767;
+    color:white;
+}
 
 .foo-ter{
     background-color: #676767;
