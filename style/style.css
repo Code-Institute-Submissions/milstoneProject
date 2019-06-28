@@ -203,6 +203,13 @@ font-family: 'Roboto', sans-serif;
     color: white;
 }
 
+.re-cap {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 
 
 
